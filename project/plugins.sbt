@@ -10,3 +10,7 @@ addSbtPlugin("io.gatling" % "gatling-sbt" % "3.0.0")
 
 // Scala formatting: "sbt scalafmt"
 addSbtPlugin("com.lucidchart" % "sbt-scalafmt" % "1.15")
+
+// Scala Check Q/A of source 
+addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+
